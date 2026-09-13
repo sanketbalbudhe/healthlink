@@ -14,7 +14,7 @@ import plotly.graph_objects as go
 # Override with the HEALTHLINK_API_URL env var to point at a deployed backend.
 API_BASE_URL = os.getenv(
     "HEALTHLINK_API_URL",
-    "http://localhost:8000/api/v1"
+    "https://healthlink-765386273062.asia-south1.run.app/api/v1"
 )
 
 # Page config
